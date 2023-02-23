@@ -28,6 +28,6 @@ def primador(num, primos):
                 primos.append(x)
                 break
 
-    return primos    #comprobará que los números sean primos, si el residuo es 0 no y escapa, si el cociente n÷z es menor que el divisor omite al siguiete divisor (primo) contenido en la lista
+    return primos    #comprobará que los números sean primos, si el residuo es 0 no y escapa, si el cociente n÷z es mayor que el divisor omite al siguiete divisor (primo) contenido en la lista
 # la misma si pasa n÷z>divisor_z implicaría un primo y lo añadé como un elemento de la lista y escapa de la lista primos para seguir.
 principal()
